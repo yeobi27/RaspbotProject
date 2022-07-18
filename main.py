@@ -1,11 +1,11 @@
 from kivy.config import Config
 
 # 크기 조정 안함
-Config.set('graphics', 'resizable', False)
+# Config.set('graphics', 'resizable', False)
 
 from kivy.core.window import Window
 
-Window.size = (400, 600)
+# Window.size = (400, 600)
 # Window.size = (1440, 2560)
 
 from kivy.app import App
